@@ -125,3 +125,16 @@ form{
 .menu{
     margin-right: 20px;
 }
+
+.contorno-form{
+    display:block;
+    width: 100%;
+    padding: 6px;
+    border-radius: 6px;
+    border: 1px solid #DEE2E6;
+    outline: none;
+}
+.contorno-form:focus{
+    border: 1px solid #FF8400;
+    outline: 4px solid rgba(255, 141, 66, 0.4);
+}
